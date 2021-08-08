@@ -39,6 +39,12 @@ ul li {
   opacity: 0.75;
 }
 
+#weather {
+  background: content-box radial-gradient(green, skyblue);
+  max-width: 170px;
+  margin-top: 20px;
+}
+
 ul li:hover {
   opacity: 1;
 }
