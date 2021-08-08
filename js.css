@@ -1,0 +1,49 @@
+.hidden {
+  display: none;
+}
+
+li {
+  list-style-type: "\1F44D";
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+
+#todo-form {
+  margin-right: 100px;
+}
+
+h2,
+h3 {
+  margin-right: 100px;
+  background: content-box radial-gradient(green, skyblue);
+  opacity: 0.8;
+}
+
+ul li {
+  background: content-box radial-gradient(green, skyblue);
+  opacity: 0.75;
+}
+
+ul li:hover {
+  opacity: 1;
+}
+
+ul li span {
+  margin-left: 5px;
+  margin-right: 10px;
+}
